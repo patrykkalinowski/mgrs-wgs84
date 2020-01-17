@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mgrs": "^1.0.0",
+    "ol": "^6.1.1"
+  },
+  "name": "mgrs-wgs84",
+  "version": "1.0.0",
+  "description": "Node.js script to create GeoJSON file with grid of MGRS zones for EPSG:4326 (WGS 84) coordinate system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": "git@github.com:patrykkalinowski/mgrs-wgs84.git",
+  "author": "Patryk Kalinowski <patryk.kalinowski@posteo.net>",
+  "license": "MIT"
+}
